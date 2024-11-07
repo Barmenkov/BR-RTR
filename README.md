@@ -60,7 +60,7 @@ sh ip route
 ```
 ```
 object-group network LOCAL_NET
-  ip address-range 192.168.1.1-192.168.1.30
+  ip address-range 192.168.1.1-192.168.1.30  [Пишем пул адресов подсети BR-SRV. Т.е пишем пул который получился для 32 адресов ]
 exit
 
 nat source
